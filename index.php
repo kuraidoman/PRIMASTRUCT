@@ -1,3 +1,16 @@
+<?php
+// Get the page parameter from URL (default to 'home') and sanitize it
+$page = isset($_GET['page']) ? htmlspecialchars($_GET['page'], ENT_QUOTES, 'UTF-8') : 'home';
+
+// Define allowed pages for security
+$allowed_pages = ['home', 'about', 'services', 'contact'];
+
+// Validate the page parameter
+if (!in_array($page, $allowed_pages)) {
+    $page = 'home';
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,6 +35,7 @@
           alert("The account is still under construction. Come by next time!");
         }
         </script>
+
     <!-- header -->
     <header>
         <nav class="header">
@@ -38,6 +52,18 @@
         </nav>
     </header> 
     <!-- End header -->
+    <!-- Footer -->
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Prima-struct Engineering Consultancy. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
