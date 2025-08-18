@@ -36,34 +36,10 @@ if (!in_array($page, $allowed_pages)) {
         }
         </script>
 
-    <!-- header -->
-    <header>
-        <nav class="header">
-            <a class="navbar-brand" href="#">
-                <img class="logo" src="./assets"/> 
-                <span>&ensp;Prima-struct Engineering Consultancy</span> 
-            </a>
-        </nav>
-        <nav class="navigation">
-            <a href="index.php">Home</a>
-            <a href="about.php">About</a>
-            <a href="services.php">Services</a>
-            <a href="contact_us.php">Contact Us</a>
-        </nav>
-    </header> 
-    <!-- End header -->
-    <!-- Footer -->
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2023 Prima-struct Engineering Consultancy. All rights reserved.</p>
-            <div class="social-icons">
-                <a href="#"><i class='bx bxl-facebook'></i></a>
-                <a href="#"><i class='bx bxl-twitter'></i></a>
-                <a href="#"><i class='bx bxl-instagram'></i></a>
-            </div>
-        </div>
-    </footer>
+    <?php include 'header.php'; ?>
+    
+    <?php include 'footer.php'; ?>
+    
 </body>
 
 </html>
