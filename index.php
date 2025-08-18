@@ -40,7 +40,7 @@ if (!in_array($page, $allowed_pages)) {
     <header>
         <nav class="header">
             <a class="navbar-brand" href="#">
-                <img class="logo" src="./a"/> 
+                <img class="logo" src="./assets"/> 
                 <span>&ensp;Prima-struct Engineering Consultancy</span> 
             </a>
         </nav>
