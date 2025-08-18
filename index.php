@@ -26,15 +26,15 @@
     <header>
         <nav class="header">
             <a class="navbar-brand" href="#">
-                <img class="logo" src="./pictures finals/strawberry-svgrepo-com.svg"/> 
+                <img class="logo" src="./a"/> 
                 <span>&ensp;Prima-struct Engineering Consultancy</span> 
             </a>
         </nav>
         <nav class="navigation">
-            <a href="home.html">Home</a>
-            <a href="home.html#works">About</a>
-            <a href="home.html#works">Services</a>
-            <a href="index.html">Logout</a>
+            <a href="index.php">Home</a>
+            <a href="about.php">About</a>
+            <a href="services.php">Services</a>
+            <a href="contact_us.php">Contact Us</a>
         </nav>
     </header> 
     <!-- End header -->
