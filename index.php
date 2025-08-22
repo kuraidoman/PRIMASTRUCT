@@ -52,30 +52,10 @@ if (!in_array($page, $allowed_pages)) {
             <a href="index.php?page=services" <?php echo ($page == 'services') ? 'class="active"' : ''; ?>>Services</a>
             <a href="index.php?page=contact" <?php echo ($page == 'contact') ? 'class="active"' : ''; ?>>Contact Us</a>
         </nav>
-    </header>
-
-    <!-- MAIN CONTENT AREA -->
-    <main class="main-content">
-        <?php
-        // Include the appropriate page content
-        switch($page) {
-            case 'home':
-                include 'pages/home_content.php';
-                break;
-            case 'about':
-                include 'pages/about_content.php';
-                break;
-            case 'services':
-                include 'pages/services_content.php';
-                break;
-            case 'contact':
-                include 'pages/contact_content.php';
-                break;
-        }
-        ?>
-    </main>
-
-    <!-- FOOTER SECTION -->
+    </header> 
+    <!-- End header -->
+    <!-- Footer -->
+    <!-- Footer -->
     <footer>
         <div class="footer-content">
             <p>&copy; <?php echo date('Y'); ?> Prima-struct Engineering Consultancy. All rights reserved.</p>
