@@ -21,7 +21,7 @@
             </a>
         </nav>
         <nav class="navigation">
-            <a href="index.php">Home</a>
+            <a href="home.php">Home</a>
             <a href="about.php">About</a>
             <a href="services.php">Services</a>
             <a href="contact_us.php">Contact Us</a>
